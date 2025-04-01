@@ -2,7 +2,7 @@
     <head>
         <style>
             body {
-                background-color:rgb(240, 186, 240);
+                background-color:rgb(255, 255, 255);
                 font-family: Arial, Helvetica, sans-serif;
             }
             center {
@@ -12,33 +12,10 @@
     </head>
 
     <body>
-        <script>
-            function sendToWebpage(name) {
-                url = "https://www.instagram.com/" + name + "/followers/"
-                location.replace(url)
-            }
-        </script>
-
         <center>
             <h1 id="Title">
-                Follower Tracker
+                Sandor Santos
             </h1>
-    
-            <input 
-                type="text" 
-                placeholder="Enter Username" 
-                id="user"
-
-                onkeydown="
-                    if(event.key == 'Enter'){
-                        document.getElementById('namespace').innerHTML = document.getElementById('user').value;
-                        sendToWebpage(document.getElementById('user').value);
-                    }"
-            >
-
-            <h2 id="namespace">
-                Username Display
-            </h2>
         </center>
     </body>
     
